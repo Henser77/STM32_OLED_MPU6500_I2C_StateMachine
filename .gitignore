@@ -1,0 +1,38 @@
+#===================================================================================================
+#  .gitignore —— Keil MDK 工程
+#===================================================================================================
+
+# ── 编译产物 ──
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.sct
+*.htm
+*.build_log.htm
+*.iex
+*.tra
+
+# ── Keil 的用户界面状态（每人窗口布局不同）──
+*.uvguix.*
+*.uvopt.bak
+*.uvproj.bak
+JLinkLog.txt
+JLinkSettings.ini
+
+# ── 编辑器 / 系统临时文件 ──
+*~
+*.bak
+*.orig
+*.swp
+Thumbs.db
+Desktop.ini
